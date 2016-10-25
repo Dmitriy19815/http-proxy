@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-proxy",
+  "version": "1.0.0",
+  "description": "http/https proxy service based on node.js runtime core",
+  "main": "proxy3.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node proxy3.js"
+  },
+  "author": "farafonov-dv",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "log4js": "^0.6.38"
+  }
+}
