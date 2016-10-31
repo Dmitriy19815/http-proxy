@@ -1,0 +1,315 @@
+[2016-10-27 16:49:45.216] [INFO] info - ssl.google-analytics.com:443
+[2016-10-27 16:49:45.217] [TRACE] info - { port: '3128',
+  hostname: '10.101.0.2',
+  method: 'CONNECT',
+  path: 'ssl.google-analytics.com:443',
+  headers: 
+   { host: 'ssl.google-analytics.com:443',
+     'proxy-connection': 'keep-alive',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36',
+     'Proxy-Authorization': 'Basic ZmR2OjE5MTIwMA==' } }
+[2016-10-27 16:49:45.244] [INFO] info - glitter.services.disqus.com:443
+[2016-10-27 16:49:45.245] [TRACE] info - { port: '3128',
+  hostname: '10.101.0.2',
+  method: 'CONNECT',
+  path: 'glitter.services.disqus.com:443',
+  headers: 
+   { host: 'glitter.services.disqus.com:443',
+     'proxy-connection': 'keep-alive',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36',
+     'Proxy-Authorization': 'Basic ZmR2OjE5MTIwMA==' } }
+[2016-10-27 16:49:45.298] [INFO] info - realtime.services.disqus.com:443
+[2016-10-27 16:49:45.300] [TRACE] info - { port: '3128',
+  hostname: '10.101.0.2',
+  method: 'CONNECT',
+  path: 'realtime.services.disqus.com:443',
+  headers: 
+   { host: 'realtime.services.disqus.com:443',
+     'proxy-connection': 'keep-alive',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36',
+     'Proxy-Authorization': 'Basic ZmR2OjE5MTIwMA==' } }
+[2016-10-27 16:49:45.343] [INFO] info - links.services.disqus.com:443
+[2016-10-27 16:49:45.343] [TRACE] info - { port: '3128',
+  hostname: '10.101.0.2',
+  method: 'CONNECT',
+  path: 'links.services.disqus.com:443',
+  headers: 
+   { host: 'links.services.disqus.com:443',
+     'proxy-connection': 'keep-alive',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36',
+     'Proxy-Authorization': 'Basic ZmR2OjE5MTIwMA==' } }
+[2016-10-27 16:49:45.355] [INFO] info - referrer.disqus.com:443
+[2016-10-27 16:49:45.355] [TRACE] info - { port: '3128',
+  hostname: '10.101.0.2',
+  method: 'CONNECT',
+  path: 'referrer.disqus.com:443',
+  headers: 
+   { host: 'referrer.disqus.com:443',
+     'proxy-connection': 'keep-alive',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36',
+     'Proxy-Authorization': 'Basic ZmR2OjE5MTIwMA==' } }
+[2016-10-27 16:49:45.490] [INFO] info - http://bdv.bidvertiser.com/bidvertiser.dbm?pid=238988&bid=1003687&RD=5859521849409&DIF=2
+[2016-10-27 16:49:45.491] [TRACE] info - { port: 3128,
+  hostname: '10.101.0.2',
+  method: 'GET',
+  path: 'http://bdv.bidvertiser.com/bidvertiser.dbm?pid=238988&bid=1003687&RD=5859521849409&DIF=2',
+  headers: 
+   { host: 'bdv.bidvertiser.com',
+     'proxy-connection': 'keep-alive',
+     'cache-control': 'max-age=0',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36',
+     accept: '*/*',
+     referer: 'http://www.broad-network.com/ChrysanthusForcha-1/Page-Views-with-Ajax-and-ECMAScript-and-MySQL.htm',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'ru,uk;q=0.8,en-US;q=0.6,en;q=0.4',
+     cookie: '__qca=P0-1704958710-1477311659464; fre10_krp=381804_215103681_1',
+     'Proxy-Authorization': 'Basic ZmR2OjE5MTIwMA==' } }
+[2016-10-27 16:49:45.498] [INFO] info - http://bdfrm.bidvertiser.com/BidVertiser.dbm?pid=238988&bid=1003687&RD=9724838431162&DIF=1&bd_ref_v=www.broad-network.com&tref=1&win_name=null&docref=https%3A%2F%2Fwww.linkedin.com%2F&jsrand=9724838431162&js1loc=-&loctitle=Page%20Views%20with%20
+[2016-10-27 16:49:45.498] [TRACE] info - { port: 3128,
+  hostname: '10.101.0.2',
+  method: 'GET',
+  path: 'http://bdfrm.bidvertiser.com/BidVertiser.dbm?pid=238988&bid=1003687&RD=9724838431162&DIF=1&bd_ref_v=www.broad-network.com&tref=1&win_name=null&docref=https%3A%2F%2Fwww.linkedin.com%2F&jsrand=9724838431162&js1loc=-&loctitle=Page%20Views%20with%20',
+  headers: 
+   { host: 'bdfrm.bidvertiser.com',
+     'proxy-connection': 'keep-alive',
+     'cache-control': 'max-age=0',
+     'upgrade-insecure-requests': '1',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36',
+     accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+     referer: 'http://www.broad-network.com/ChrysanthusForcha-1/Page-Views-with-Ajax-and-ECMAScript-and-MySQL.htm',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'ru,uk;q=0.8,en-US;q=0.6,en;q=0.4',
+     cookie: '__qca=P0-1704958710-1477311659464; fre10_krp=381804_215103681_1',
+     'Proxy-Authorization': 'Basic ZmR2OjE5MTIwMA==' } }
+[2016-10-27 16:49:45.524] [INFO] info - clients1.google.com:443
+[2016-10-27 16:49:45.524] [TRACE] info - { port: '3128',
+  hostname: '10.101.0.2',
+  method: 'CONNECT',
+  path: 'clients1.google.com:443',
+  headers: 
+   { host: 'clients1.google.com:443',
+     'proxy-connection': 'keep-alive',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36',
+     'Proxy-Authorization': 'Basic ZmR2OjE5MTIwMA==' } }
+[2016-10-27 16:49:45.535] [INFO] info - http://pagead2.googlesyndication.com/pagead/js/r20161020/r20161020/show_ads_impl.js
+[2016-10-27 16:49:45.535] [TRACE] info - { port: 3128,
+  hostname: '10.101.0.2',
+  method: 'GET',
+  path: 'http://pagead2.googlesyndication.com/pagead/js/r20161020/r20161020/show_ads_impl.js',
+  headers: 
+   { host: 'pagead2.googlesyndication.com',
+     'proxy-connection': 'keep-alive',
+     'cache-control': 'max-age=0',
+     'if-none-match': '11444807125269501119',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36',
+     'x-client-data': 'CJS2yQEIpLbJAQjEtskBCKuZygE=',
+     accept: '*/*',
+     referer: 'http://www.broad-network.com/ChrysanthusForcha-1/Page-Views-with-Ajax-and-ECMAScript-and-MySQL.htm',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'ru,uk;q=0.8,en-US;q=0.6,en;q=0.4',
+     cookie: '__gads=ID=89b651d75da93029:T=1457768632:S=ALNI_MaHPQd5Dem8BHhzXUpyBKRku6bZLA',
+     'Proxy-Authorization': 'Basic ZmR2OjE5MTIwMA==' } }
+[2016-10-27 16:49:45.596] [INFO] info - http://www.broad-network.com/getComments.php
+[2016-10-27 16:49:45.596] [TRACE] info - { port: 3128,
+  hostname: '10.101.0.2',
+  method: 'POST',
+  path: 'http://www.broad-network.com/getComments.php',
+  headers: 
+   { host: 'www.broad-network.com',
+     'proxy-connection': 'keep-alive',
+     'content-length': '22',
+     'cache-control': 'max-age=0',
+     origin: 'http://www.broad-network.com',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36',
+     'content-type': 'application/x-www-form-urlencoded',
+     accept: '*/*',
+     referer: 'http://www.broad-network.com/ChrysanthusForcha-1/Page-Views-with-Ajax-and-ECMAScript-and-MySQL.htm',
+     'accept-encoding': 'gzip, deflate',
+     'accept-language': 'ru,uk;q=0.8,en-US;q=0.6,en;q=0.4',
+     'Proxy-Authorization': 'Basic ZmR2OjE5MTIwMA==' } }
+[2016-10-27 16:49:45.626] [INFO] info - http://mm.chitika.net/minimall?output=jsonp&publisher=chrys&unit_id=1&sid=Chitika%20Default&cid=unit_1&calltype=async%5B2%5D&w=300&h=250&url=http%3A%2F%2Fwww.broad-network.com%2FChrysanthusForcha-1%2FPage-Views-with-Ajax-and-ECMAScript-and-MySQL.htm&ref=https%3A%2F%2Fwww.linkedin.com%2F&dpr=1&impsrc=getads&history=1&size_screen=1280x1024&size_scroll=1141x939&size_viewport=1158x705&vsn=7.0&snip_title=Page%20Views%20with%20Ajax%20and%20ECMAScript%20and%20MySQL
+[2016-10-27 16:49:45.627] [TRACE] info - { port: 3128,
+  hostname: '10.101.0.2',
+  method: 'GET',
+  path: 'http://mm.chitika.net/minimall?output=jsonp&publisher=chrys&unit_id=1&sid=Chitika%20Default&cid=unit_1&calltype=async%5B2%5D&w=300&h=250&url=http%3A%2F%2Fwww.broad-network.com%2FChrysanthusForcha-1%2FPage-Views-with-Ajax-and-ECMAScript-and-MySQL.htm&ref=https%3A%2F%2Fwww.linkedin.com%2F&dpr=1&impsrc=getads&history=1&size_screen=1280x1024&size_scroll=1141x939&size_viewport=1158x705&vsn=7.0&snip_title=Page%20Views%20with%20Ajax%20and%20ECMAScript%20and%20MySQL',
+  headers: 
+   { host: 'mm.chitika.net',
+     'proxy-connection': 'keep-alive',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36',
+     accept: '*/*',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'ru,uk;q=0.8,en-US;q=0.6,en;q=0.4',
+     'Proxy-Authorization': 'Basic ZmR2OjE5MTIwMA==' } }
+[2016-10-27 16:49:45.671] [INFO] info - http://mm.chitika.net/minimall?output=jsonp&publisher=chrys&unit_id=2&sid=Chitika%20Default&cid=unit_2&calltype=async%5B2%5D&w=300&h=150&url=http%3A%2F%2Fwww.broad-network.com%2FChrysanthusForcha-1%2FPage-Views-with-Ajax-and-ECMAScript-and-MySQL.htm&ref=https%3A%2F%2Fwww.linkedin.com%2F&dpr=1&impsrc=getads&history=1&size_screen=1280x1024&size_scroll=1141x939&size_viewport=1158x705&vsn=7.0&snip_title=Page%20Views%20with%20Ajax%20and%20ECMAScript%20and%20MySQL
+[2016-10-27 16:49:45.671] [TRACE] info - { port: 3128,
+  hostname: '10.101.0.2',
+  method: 'GET',
+  path: 'http://mm.chitika.net/minimall?output=jsonp&publisher=chrys&unit_id=2&sid=Chitika%20Default&cid=unit_2&calltype=async%5B2%5D&w=300&h=150&url=http%3A%2F%2Fwww.broad-network.com%2FChrysanthusForcha-1%2FPage-Views-with-Ajax-and-ECMAScript-and-MySQL.htm&ref=https%3A%2F%2Fwww.linkedin.com%2F&dpr=1&impsrc=getads&history=1&size_screen=1280x1024&size_scroll=1141x939&size_viewport=1158x705&vsn=7.0&snip_title=Page%20Views%20with%20Ajax%20and%20ECMAScript%20and%20MySQL',
+  headers: 
+   { host: 'mm.chitika.net',
+     'proxy-connection': 'keep-alive',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36',
+     accept: '*/*',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'ru,uk;q=0.8,en-US;q=0.6,en;q=0.4',
+     'Proxy-Authorization': 'Basic ZmR2OjE5MTIwMA==' } }
+[2016-10-27 16:49:45.867] [INFO] info - http://images.chitika.net/creatives/goodfit/adc_tea_goodfit_300x250.jpg
+[2016-10-27 16:49:45.867] [TRACE] info - { port: 3128,
+  hostname: '10.101.0.2',
+  method: 'GET',
+  path: 'http://images.chitika.net/creatives/goodfit/adc_tea_goodfit_300x250.jpg',
+  headers: 
+   { host: 'images.chitika.net',
+     'proxy-connection': 'keep-alive',
+     'cache-control': 'max-age=0',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36',
+     accept: 'image/webp,image/*,*/*;q=0.8',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'ru,uk;q=0.8,en-US;q=0.6,en;q=0.4',
+     'if-modified-since': 'Tue, 11 Oct 2016 19:33:35 GMT',
+     'Proxy-Authorization': 'Basic ZmR2OjE5MTIwMA==' } }
+[2016-10-27 16:49:45.986] [INFO] info - http://bdfrm.bidvertiser.com/BidVertiser.dbm?pid=238988&bid=1003687&RD=06427139954453&DIF=1&bd_ref_v=www.broad-network.com&tref=1&win_name=null&docref=https%3A%2F%2Fwww.linkedin.com%2F&jsrand=06427139954453&js1loc=-&loctitle=Page%20Views%20with%20
+[2016-10-27 16:49:45.987] [TRACE] info - { port: 3128,
+  hostname: '10.101.0.2',
+  method: 'GET',
+  path: 'http://bdfrm.bidvertiser.com/BidVertiser.dbm?pid=238988&bid=1003687&RD=06427139954453&DIF=1&bd_ref_v=www.broad-network.com&tref=1&win_name=null&docref=https%3A%2F%2Fwww.linkedin.com%2F&jsrand=06427139954453&js1loc=-&loctitle=Page%20Views%20with%20',
+  headers: 
+   { host: 'bdfrm.bidvertiser.com',
+     'proxy-connection': 'keep-alive',
+     'cache-control': 'max-age=0',
+     'upgrade-insecure-requests': '1',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36',
+     accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+     referer: 'http://www.broad-network.com/ChrysanthusForcha-1/Page-Views-with-Ajax-and-ECMAScript-and-MySQL.htm',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'ru,uk;q=0.8,en-US;q=0.6,en;q=0.4',
+     cookie: '__qca=P0-1704958710-1477311659464; fre10_krp=381804_215103681_1',
+     'Proxy-Authorization': 'Basic ZmR2OjE5MTIwMA==' } }
+[2016-10-27 16:49:46.179] [INFO] info - s0.2mdn.net:443
+[2016-10-27 16:49:46.179] [TRACE] info - { port: '3128',
+  hostname: '10.101.0.2',
+  method: 'CONNECT',
+  path: 's0.2mdn.net:443',
+  headers: 
+   { host: 's0.2mdn.net:443',
+     'proxy-connection': 'keep-alive',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36',
+     'Proxy-Authorization': 'Basic ZmR2OjE5MTIwMA==' } }
+[2016-10-27 16:49:46.251] [INFO] info - http://cdn.bidvertiser.com/default.css
+[2016-10-27 16:49:46.252] [TRACE] info - { port: 3128,
+  hostname: '10.101.0.2',
+  method: 'GET',
+  path: 'http://cdn.bidvertiser.com/default.css',
+  headers: 
+   { host: 'cdn.bidvertiser.com',
+     'proxy-connection': 'keep-alive',
+     'cache-control': 'max-age=0',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36',
+     accept: 'text/css,*/*;q=0.1',
+     referer: 'http://bdfrm.bidvertiser.com/BidVertiser.dbm?pid=238988&bid=1003687&RD=9724838431162&DIF=1&bd_ref_v=www.broad-network.com&tref=1&win_name=null&docref=https%3A%2F%2Fwww.linkedin.com%2F&jsrand=9724838431162&js1loc=-&loctitle=Page%20Views%20with%20',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'ru,uk;q=0.8,en-US;q=0.6,en;q=0.4',
+     cookie: '__qca=P0-1704958710-1477311659464; AdskeeperStorage=%7B%220%22%3A%7B%22svspr%22%3A%22http%3A%2F%2Fcdn.bidvertiser.com%2Fbvrtag.html%3Fhttp%3A%2F%2Fcdn.bidvertiser.com%2Fshowbnad1kep2.html%3Fbvlocationcode%3D1003687%26size%3D300x250%26bvgeo%3DUA%22%2C%22svsds%22%3A4%2C%22TejndEEDj%22%3A%22MTQ3NzMxMTY2MDQzMTU1NDI4MTY2MQ%3D%3D%22%7D%2C%22C55428%22%3A%7B%22page%22%3A1%2C%22time%22%3A1477376584420%7D%7D; bdv_cpk=1163; bdv_c10p=; fre10_krp=381804_215272185_1',
+     'if-none-match': '8ea20baef891abad5a169261301f1b0d',
+     'if-modified-since': 'Mon, 21 Sep 2015 08:25:41 GMT',
+     'Proxy-Authorization': 'Basic ZmR2OjE5MTIwMA==' } }
+[2016-10-27 16:49:46.254] [INFO] info - http://cdn.bidvertiser.com/250x300.css
+[2016-10-27 16:49:46.254] [TRACE] info - { port: 3128,
+  hostname: '10.101.0.2',
+  method: 'GET',
+  path: 'http://cdn.bidvertiser.com/250x300.css',
+  headers: 
+   { host: 'cdn.bidvertiser.com',
+     'proxy-connection': 'keep-alive',
+     'cache-control': 'max-age=0',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36',
+     accept: 'text/css,*/*;q=0.1',
+     referer: 'http://bdfrm.bidvertiser.com/BidVertiser.dbm?pid=238988&bid=1003687&RD=9724838431162&DIF=1&bd_ref_v=www.broad-network.com&tref=1&win_name=null&docref=https%3A%2F%2Fwww.linkedin.com%2F&jsrand=9724838431162&js1loc=-&loctitle=Page%20Views%20with%20',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'ru,uk;q=0.8,en-US;q=0.6,en;q=0.4',
+     cookie: '__qca=P0-1704958710-1477311659464; AdskeeperStorage=%7B%220%22%3A%7B%22svspr%22%3A%22http%3A%2F%2Fcdn.bidvertiser.com%2Fbvrtag.html%3Fhttp%3A%2F%2Fcdn.bidvertiser.com%2Fshowbnad1kep2.html%3Fbvlocationcode%3D1003687%26size%3D300x250%26bvgeo%3DUA%22%2C%22svsds%22%3A4%2C%22TejndEEDj%22%3A%22MTQ3NzMxMTY2MDQzMTU1NDI4MTY2MQ%3D%3D%22%7D%2C%22C55428%22%3A%7B%22page%22%3A1%2C%22time%22%3A1477376584420%7D%7D; bdv_cpk=1163; bdv_c10p=; fre10_krp=381804_215272185_1',
+     'if-none-match': '59fda2c69f5b2c0f44c0400fb8cde118',
+     'if-modified-since': 'Mon, 21 Sep 2015 08:17:52 GMT',
+     'Proxy-Authorization': 'Basic ZmR2OjE5MTIwMA==' } }
+[2016-10-27 16:49:46.255] [INFO] info - http://cdn.bidvertiser.com/bdv_fsthd.js
+[2016-10-27 16:49:46.256] [TRACE] info - { port: 3128,
+  hostname: '10.101.0.2',
+  method: 'GET',
+  path: 'http://cdn.bidvertiser.com/bdv_fsthd.js',
+  headers: 
+   { host: 'cdn.bidvertiser.com',
+     'proxy-connection': 'keep-alive',
+     'cache-control': 'max-age=0',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36',
+     accept: '*/*',
+     referer: 'http://bdfrm.bidvertiser.com/BidVertiser.dbm?pid=238988&bid=1003687&RD=9724838431162&DIF=1&bd_ref_v=www.broad-network.com&tref=1&win_name=null&docref=https%3A%2F%2Fwww.linkedin.com%2F&jsrand=9724838431162&js1loc=-&loctitle=Page%20Views%20with%20',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'ru,uk;q=0.8,en-US;q=0.6,en;q=0.4',
+     cookie: '__qca=P0-1704958710-1477311659464; AdskeeperStorage=%7B%220%22%3A%7B%22svspr%22%3A%22http%3A%2F%2Fcdn.bidvertiser.com%2Fbvrtag.html%3Fhttp%3A%2F%2Fcdn.bidvertiser.com%2Fshowbnad1kep2.html%3Fbvlocationcode%3D1003687%26size%3D300x250%26bvgeo%3DUA%22%2C%22svsds%22%3A4%2C%22TejndEEDj%22%3A%22MTQ3NzMxMTY2MDQzMTU1NDI4MTY2MQ%3D%3D%22%7D%2C%22C55428%22%3A%7B%22page%22%3A1%2C%22time%22%3A1477376584420%7D%7D; bdv_cpk=1163; bdv_c10p=; fre10_krp=381804_215272185_1',
+     'if-none-match': '60b12ce84bf12020c2c9d951414473a5',
+     'if-modified-since': 'Tue, 26 Jul 2016 07:40:00 GMT',
+     'Proxy-Authorization': 'Basic ZmR2OjE5MTIwMA==' } }
+[2016-10-27 16:49:46.399] [INFO] info - dsum-sec.casalemedia.com:443
+[2016-10-27 16:49:46.400] [TRACE] info - { port: '3128',
+  hostname: '10.101.0.2',
+  method: 'CONNECT',
+  path: 'dsum-sec.casalemedia.com:443',
+  headers: 
+   { host: 'dsum-sec.casalemedia.com:443',
+     'proxy-connection': 'keep-alive',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36',
+     'Proxy-Authorization': 'Basic ZmR2OjE5MTIwMA==' } }
+[2016-10-27 16:49:46.401] [INFO] info - ib.adnxs.com:443
+[2016-10-27 16:49:46.402] [TRACE] info - { port: '3128',
+  hostname: '10.101.0.2',
+  method: 'CONNECT',
+  path: 'ib.adnxs.com:443',
+  headers: 
+   { host: 'ib.adnxs.com:443',
+     'proxy-connection': 'keep-alive',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36',
+     'Proxy-Authorization': 'Basic ZmR2OjE5MTIwMA==' } }
+[2016-10-27 16:49:46.453] [INFO] info - http://edge.quantserve.com/quant.js
+[2016-10-27 16:49:46.454] [TRACE] info - { port: 3128,
+  hostname: '10.101.0.2',
+  method: 'GET',
+  path: 'http://edge.quantserve.com/quant.js',
+  headers: 
+   { host: 'edge.quantserve.com',
+     'proxy-connection': 'keep-alive',
+     'cache-control': 'max-age=0',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36',
+     accept: '*/*',
+     referer: 'http://bdfrm.bidvertiser.com/BidVertiser.dbm?pid=238988&bid=1003687&RD=9724838431162&DIF=1&bd_ref_v=www.broad-network.com&tref=1&win_name=null&docref=https%3A%2F%2Fwww.linkedin.com%2F&jsrand=9724838431162&js1loc=-&loctitle=Page%20Views%20with%20',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'ru,uk;q=0.8,en-US;q=0.6,en;q=0.4',
+     cookie: 'mc=5652b31a-95d74-f36cb-b5424',
+     'if-modified-since': 'Fri, 15 Jul 2016 22:07:37 GMT',
+     'Proxy-Authorization': 'Basic ZmR2OjE5MTIwMA==' } }
+[2016-10-27 16:49:46.455] [INFO] info - safebrowsing.google.com:443
+[2016-10-27 16:49:46.455] [TRACE] info - { port: '3128',
+  hostname: '10.101.0.2',
+  method: 'CONNECT',
+  path: 'safebrowsing.google.com:443',
+  headers: 
+   { host: 'safebrowsing.google.com:443',
+     'proxy-connection': 'keep-alive',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36',
+     'Proxy-Authorization': 'Basic ZmR2OjE5MTIwMA==' } }
+[2016-10-27 16:49:46.753] [INFO] info - http://cdnis.bidvertiser.com/bvrtag.html?http://cdn.putono5.com/scripts/au4047.html?subid=1003687
+[2016-10-27 16:49:46.754] [TRACE] info - { port: 3128,
+  hostname: '10.101.0.2',
+  method: 'GET',
+  path: 'http://cdnis.bidvertiser.com/bvrtag.html?http://cdn.putono5.com/scripts/au4047.html?subid=1003687',
+  headers: 
+   { host: 'cdnis.bidvertiser.com',
+     'proxy-connection': 'keep-alive',
+     'cache-control': 'max-age=0',
+     'upgrade-insecure-requests': '1',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36',
+     accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+     referer: 'http://bdfrm.bidvertiser.com/BidVertiser.dbm?pid=238988&bid=1003687&RD=9724838431162&DIF=1&bd_ref_v=www.broad-network.com&tref=1&win_name=null&docref=https%3A%2F%2Fwww.linkedin.com%2F&jsrand=9724838431162&js1loc=-&loctitle=Page%20Views%20with%20',
+     'accept-encoding': 'gzip, deflate, sdch',
+     'accept-language': 'ru,uk;q=0.8,en-US;q=0.6,en;q=0.4',
+     cookie: '__qca=P0-1704958710-1477311659464; bdv_cpk=1163; bdv_c10p=; fre10_krp=319286_215272186_1',
+     'Proxy-Authorization': 'Basic ZmR2OjE5MTIwMA==' } }

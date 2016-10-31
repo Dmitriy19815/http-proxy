@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Монитор асинхронного вебсокетного подключения</title>
+    <style>
+        body {
+            padding:0;
+            margin: 0;
+            font: 10pt sans-serif, Arial, Tahoma;
+        }
+
+        h1 {
+            font-size: 2em;
+            margin: 0.8em 0;
+        }
+
+        h3 {
+            font-size:1.5em;
+            margin: 0.1em;
+        }
+        #content {
+            position: relative;
+            margin: 0 auto;
+            width:960px;
+            min-width:800px;
+        }
+
+        #left {
+            position:absolute;
+            top:0px;
+            left:0px;
+            padding:2px;
+            width:220px;
+            height:560px;
+        }
+        #right {
+            position:absolute;
+            top:0px;
+            left:250px;
+            padding:2px;
+            width:710px;
+            height:560px;
+        }
+
+        #scroller {
+            position:relative;
+            width: 400px;
+            height:90%;
+            overflow-y:auto;
+            border:1px dotted black;
+            padding:5px;
+            margin-top:10px;
+        }
+
+        .off {
+            color:red;
+        }
+
+        .on {
+            color: green;
+        }
+
+        .inBottom {
+            position: absolute;
+            bottom: 20px;
+        }
+    </style>
+    <script src="./node_modules/sockjs/lib/sockjs.js" type="text/javascript"></script>
+    <script>
+        var sock;stat = document.getElementById("status");
+
+        function connect() {
+            // объект доступа к вебсокетному соединению
+            sock = new SockJS('http://mysite.com:8081/data');
+            var l = document.getElementById("login").value,
+                    p = document.getElementById("passw").value
+            stat = document.getElementById("status");
+
+            setTimeout(function(){
+                // соединение устанавливается не мгновенно, перед авторизацией лучше обождать пару секунд
+                sock.send(toJSON("@auth", { log: l, pwd: p }));
+            },2000);
+
+            sock.onopen = function() {
+                // если соединение установлено, индикатор статуса радостно зазеленится
+                stat.innerHTML = "ON";
+                stat.className = "on";
+            };
+
+            sock.onmessage = function(e) {
+                // обработчик асинхронных данных, которые приходят в виде объекта, а непосредственные
+                // данные из сокета  доступны в поле "data"
+                document.getElementById("scroller").innerHTML += "<p>"+e.data+"</p>";
+            };
+
+            sock.onclose = function() {
+                // если вебсокетное соединение потеряно, статус покраснеет от отчаяния
+                stat.innerHTML = "OFF";
+                stat.className = "off";
+            };
+        }
+
+        function disconnect() {
+            // рвем связь
+            if(sock !== undefined) {
+                sock.send(toJSON("@bye", {}));
+            }
+        }
+
+        function toJSON (com, param){
+            return JSON.stringify({ command: com, param: param });
+        }
+    </script>
+</head>
+<body>
+<div id="content">
+    <div id="left">
+        <p style="width:100%;">Логин <input type="text" id="login" style="float:right;"></p>
+        <p style="width:100%;">Пароль <input type="password" id="passw" style="float:right;"></p>
+        <button onclick="connect();">Подключить</button><button onclick="disconnect();">Отключить</button><br>
+        <p class="inBottom">Подключение: <span id="status"></span></p>
+    </div>
+    <div id="right">
+        <div id="scroller"></div>
+    </div>
+</div>
+</body>
+</html>

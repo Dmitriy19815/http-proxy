@@ -5,12 +5,12 @@
   "main": "proxy3.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node proxy3.js"
+    "start": "node proxy-with-authorization.js"
   },
   "author": "farafonov-dv",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.14.0",
-    "log4js": "^0.6.38"
+    "log4js": "^0.6.38",
+    "sockjs": "^0.3.18"
   }
 }

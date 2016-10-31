@@ -64,7 +64,7 @@ var server = http.createServer(function(request, response) {
         options.headers['Proxy-Authorization'] = 'Basic ' + new Buffer(gw.auth).toString('base64')
 
     // console.log(options);
-    loggerDebug.trace(options);
+    loggerInfo.trace(options);
 
     var gatewayRequest = http.request(options)
 
@@ -75,13 +75,21 @@ var server = http.createServer(function(request, response) {
     })
 
     gatewayRequest.on('response', function(gatewayResponse) {
-        if ((gatewayResponse.statusCode === 403) || (gatewayResponse.statusCode === 407)) {
-            // console.log("[error] AUTH REQUIRED: "+gatewayResponse.statusCode+" "+gatewayResponse.statusMessage);
-            loggerError.error(gatewayResponse.statusCode+" "+gatewayResponse.statusMessage);
+        try {
+            assert.notEqual(gatewayResponse.statusCode, 407, 'Proxy AUTH required')
+        }
+        catch (e) {
+            loggerDebug.info(gatewayResponse.statusCode+" "+gatewayResponse.statusMessage);
+            // loggerDebug.warn(e.stack.toString());
         }
 
         gatewayResponse.on('data', function(chunk) {
-            response.write(chunk, 'binary')
+            try {
+                response.write(chunk, 'binary')
+            }
+            catch (e) {
+                loggerDebug.warn(e.stack.toString());
+            }
         })
 
         gatewayResponse.on('end', function() {
@@ -92,7 +100,12 @@ var server = http.createServer(function(request, response) {
     })
 
     request.on('data', function(chunk) {
-        gatewayRequest.write(chunk, 'binary')
+        try {
+            gatewayRequest.write(chunk, 'binary')
+        }
+        catch (e) {
+            loggerDebug.warn(e.stack.toString());
+        }
     })
 
     request.on('end', function() {
@@ -120,7 +133,7 @@ var server = http.createServer(function(request, response) {
         options.headers['Proxy-Authorization'] = 'Basic ' + new Buffer(gw.auth).toString('base64')
 
     // console.log(options)
-    loggerDebug.trace(options);
+    loggerInfo.trace(options);
 
     var gatewayRequest = http.request(options)
 
@@ -131,26 +144,27 @@ var server = http.createServer(function(request, response) {
     })
 
     gatewayRequest.on('connect', function(res, socket, head) {
-
-        // assert.equal(res.statusCode, 200)
-        // assert.equal(head.length, 0)
-
-        if (!(res.statusCode === 200)) {
-            // console.log("[error]: "+res.statusCode+" "+res.statusMessage);
-            loggerError.warn("HTTP/" + request.httpVersion+" "+res.statusCode+" "+res.statusMessage);
-            socketRequest.end()
+        try {
+            assert.equal(res.statusCode, 200)
+            assert.equal(head.length, 0)
         }
-        else {
-            // console.log("HTTP/"+request.httpVersion+" "+res.statusCode+" "+res.statusMessage);
-            loggerInfo.info("HTTP/" + request.httpVersion+" "+res.statusCode+" "+res.statusMessage);
+        catch (e) {
+            loggerDebug.info(res.statusCode+" "+res.statusMessage);
+            loggerDebug.warn(e.stack.toString());
+            // socketRequest.end()
         }
 
-        // socketRequest.write("HTTP/" + request.httpVersion + " 200 Connection established\r\n\r\n")
-        socketRequest.write("HTTP/"+request.httpVersion+" "+res.statusCode+" "+res.statusMessage+"\r\n\r\n")
+        socketRequest.write("HTTP/" + request.httpVersion + " 200 Connection established\r\n\r\n")
+        // socketRequest.write("HTTP/"+request.httpVersion+" "+res.statusCode+" "+res.statusMessage+"\r\n\r\n")
 
         // Туннелирование к хосту
         socket.on('data', function(chunk) {
-            socketRequest.write(chunk, 'binary')
+            try {
+                socketRequest.write(chunk, 'binary')
+            }
+            catch (e) {
+                loggerDebug.warn(e.stack.toString());
+            }
         })
 
         socket.on('end', function() {
@@ -159,7 +173,7 @@ var server = http.createServer(function(request, response) {
 
         socket.on('error', function() {
             // console.log("HTTP/" + request.httpVersion + " 500 Connection error\r\n\r\n")
-            loggerError.error("HTTP/" + request.httpVersion + " 500 Connection error\r\n\r\n");
+            loggerError.warn("HTTP/" + request.httpVersion + " 500 Connection error");
 
             // Сказать клиенту, что произошла ошибка
             socketRequest.write("HTTP/" + request.httpVersion + " 500 Connection error\r\n\r\n")
