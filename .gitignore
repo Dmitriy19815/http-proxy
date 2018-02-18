@@ -1,7 +1,7 @@
 ### JetBrains template
 
 # IntelliJ project files
-.idea/**
+.idea
 *.iml
 
 # Custom points
