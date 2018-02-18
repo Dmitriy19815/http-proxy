@@ -32,15 +32,6 @@ catch (e) {
     process.exit(-1);
 }
 
-/*
-var log4js2 = require("log4js");
-
-    log4js2.loadAppender("file");
-    log4js2.addAppender(log4js.appenders.file("./logs/redirect-proxy.log"), "redirect-proxy");
-
-var logger = log4js2.getLogger("redirect-proxy");
-*/
-
 var gateway = config.gateway.URI;
 
 if (process.env.gateway)
@@ -129,7 +120,7 @@ var server = http.createServer(function(request, response) {
         headers: request.headers || {}
     }
 
-    if(gw.auth)
+    if (gw.auth)
         options.headers['Proxy-Authorization'] = 'Basic ' + new Buffer(gw.auth).toString('base64')
 
     // console.log(options)

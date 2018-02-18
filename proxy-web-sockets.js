@@ -4,8 +4,8 @@
 var http = require('http'),
     net = require('net'),
     sockjs = require('sockjs'),
-    _ADDR = "10.101.0.2", // адрес сервера данных, желательно ай-пи
-    _PORT = 3128,		// порт сервера
+    _ADDR = "185.82.212.95",
+    _PORT = 8080,
     server = sockjs.createServer();
 
 server.on('connection', function(conn) {

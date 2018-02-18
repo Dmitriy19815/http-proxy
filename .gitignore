@@ -1,0 +1,15 @@
+### JetBrains template
+
+# IntelliJ project files
+.idea
+*.iml
+
+# User-specific stuff:
+.idea/**
+out/
+
+# Custom points
+logs/
+node_modules/
+package-lock.json
+*.lock

@@ -75,7 +75,7 @@ HttpsProxyAgent.prototype.addRequest = function(req, options)   // node v0.12.x
     {
         // if we are under maxSockets create a new one.
         // this.createSocket(name, host, port, localAddress, req, function(socket)  // node 0.10.x
-        this.createSocket(name, options.host, options.port, options.path, req, function(socket: Net.Socket) // node 0.12.x
+        this.createSocket(name, options.host, options.port, options.path, req, function(socket: Socket) // node 0.12.x
         {
             req.onSocket(socket);
         });

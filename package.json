@@ -1,8 +1,8 @@
 {
-  "name": "nodejs-proxy",
-  "version": "1.0.0",
+  "name": "nodejs-proxy-wrapper",
+  "version": "0.1.0",
   "description": "http/https proxy service based on node.js runtime core",
-  "main": "proxy3.js",
+  "main": "proxy-with-authorization.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node proxy-with-authorization.js"
@@ -11,6 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "log4js": "^0.6.38",
-    "sockjs": "^0.3.18"
+    "socksjs": "^0.5.0"
   }
 }

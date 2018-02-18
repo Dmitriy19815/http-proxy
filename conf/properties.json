@@ -1,5 +1,5 @@
 {
-  "listener": { "address": "127.0.0.1", "port": "3130" },
-  "gateway": { "URI": "proxy://fdv:191200@10.101.0.2:3128/", "username": "fdv", "password": "191200" },
+  "listener": { "address": "localhost", "port": "3130" },
+  "gateway": { "URI": "proxy://185.82.212.95:8080/", "username": "anonymous", "password": "no-password" },
   "database": { "username": "hr", "password": "hr" }
 }
